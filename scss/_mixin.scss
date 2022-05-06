@@ -1,0 +1,34 @@
+@mixin position-t-l ($position, $top, $left){
+    position: $position;
+    top: $top;
+    left: $left;    
+}
+
+@mixin position-b-l ($position, $bottom, $left){
+    position: $position;
+    bottom: $bottom;
+    left: $left;    
+}
+
+@mixin d-flex-fd-ai-jc-g ($flex-direction:row, $align-items, $justify-content, $gap:0){
+    display: flex;
+    flex-direction: $flex-direction;
+    align-items: $align-items;
+    justify-content: $justify-content;
+    gap: $gap;
+}
+
+@mixin m-p ($margin, $padding){
+    margin: $margin;
+    padding: $padding;
+}
+
+@mixin w-h ($width, $height){
+    width: $width;
+    height: $height;
+}
+
+@mixin bi-bp ($background-image, $background-position) {
+    background-image: $background-image;
+    background-position: $background-position;    
+}
