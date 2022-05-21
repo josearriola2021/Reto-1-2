@@ -1,0 +1,23 @@
+:root {
+  --border-table: #dee2e6;
+}
+
+.article-container {
+  padding: 100px 20px 0 200px;
+  margin: auto;
+  display: flex;
+  gap: 8rem;
+  max-width: 1000px;
+}
+.article__add {
+  font-size: 1rem;
+  cursor: pointer;
+}
+.article__add::before {
+  font-size: 1.4rem;
+}
+.article__add:hover::before {
+  color: blue;
+}
+
+/*# sourceMappingURL=plataforma.css.map */
